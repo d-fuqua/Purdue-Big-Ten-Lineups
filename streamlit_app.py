@@ -72,8 +72,8 @@ def build_histogram(df, y_axis, hist_title, y_title):
 def main():
 
     # Read advanced and basic DataFrames from CSV files
-    advanced_df = pd.read_csv(r'C:\Users\David\Desktop\GameData\lineup_advanced_stats.csv')
-    basic_df = pd.read_csv(r'C:\Users\David\Desktop\GameData\lineup_basic_stats.csv')
+    advanced_df = pd.read_csv('.\GameData\lineup_advanced_stats.csv')
+    basic_df = pd.read_csv('.\GameData\lineup_basic_stats.csv')
 
     # Set the page layout and display title and subheader
     st.set_page_config(layout='wide')
